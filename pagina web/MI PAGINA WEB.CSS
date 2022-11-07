@@ -1,0 +1,112 @@
+*{
+    box-sizing: border-box;
+}
+h1{font-size: 3.5em;
+    height: 20vh;
+}
+h2{ font-size: 2.7em;}
+h3{ font-size: 2em;}
+p{font-size: 1.25em;}
+
+button{
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 2px solid rgba(0,0,0,0.3);
+    color: aliceblue;
+    background-color: blueviolet;
+
+}
+button:hover{
+    background-color: rgba(101,33, 165);
+}
+
+.container{
+    max-width: 1400px;
+    margin: auto;
+
+}
+
+header .logo{
+    color: blueviolet;
+    font-size: 2.8em;
+    
+    
+}
+#hero{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    height: 50vh;
+    color: white;
+    background-image:linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("fondo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:  center center;
+}
+#somos-proya .container{
+    text-align: center;
+    padding: 200px 12px;
+    
+}
+#goo .container{
+    text-align: center;
+}
+#goo{
+    background-color: rgba(0,0,0);
+    color: white;
+    
+}
+#goo p{
+    display: none;
+}
+#goo .cartas{
+    
+
+}
+.carta:first-child{
+    background-image: 
+    linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("img.jpg");
+}
+
+#final{
+    
+    height: 30vh;
+
+}
+@media ( min-width: 720px){
+    header .container:row;
+    padding-bottom: 0;
+    padding-right: 20px;
+}
+
+#final{
+    text-align: center;
+    height: 20vh;
+
+}
+footer{
+    text-align: right;
+}
+
+   
+
+
+   
+
+
+
+    
+    
